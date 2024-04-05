@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;}
+
+.container{
+width: 1440px;
+height: 3337px;
+margin-top: 64px;
+
+
+}
+
+.sectinon01{
+width: 1440px;
+height: 657px;
+
+
+}
+
+.content{
+width:  874px;
+height:417px;
+margin-top: 120px;
+margin-left: 155px;
+
+
+}
+
+.content h4{
+    font-weight: 400;
+    font-size: 30px;
+    color: #212121;
+
+   
+    
+    
+    }
+.content h2{
+    
+font-family: Arial, Helvetica, sans-serif;
+font-size: 60px;
+font-weight: 600;
+
+
+
+
+
+}
+
+.icon1{
+
+width:208px;
+height:48px;
+margin-top: 40px;
+
+
+}
+
+.icon1 i{
+ width: 40px;
+height: 40px;
+padding-top: 4px;
+padding-left: 4px;
+
+
+
+}
+
+.section2 h4{
+    margin-top: 80px;
+    margin-left: 165px;
+
+}
+
+.content1{
+    margin-left: 165px;
+    margin-right:165px;
+    margin-top: 64px;
+}
+
+.content1 h4{
+    text-align: left;
+    color: black;
+    display: inline-block;
+    font-weight: 700;
+    margin-top: 24px;
+    margin-right: 397px;
+    margin-left: 0;
+    
+  
+}
+
+.content1 p{
+    text-align: left;
+    font-size: 16px;
+    color: black;
+    margin-top: 12px;
+    
+  
+}
+
+ .button{
+    margin-bottom: 24px;
+    margin-left: 0px;
+    margin-top: 64px;
+    text-decoration: none;
+}
+
+.content2{
+    margin-left: 165px;
+    margin-right:165px;
+    margin-top: 64px;
+}
+
+.content2 h4{
+   color: black;
+   margin-bottom: 24px;
+   margin-left: 0;
+   
+}
+
+.content2 p{
+margin-top: 12px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+    
+}
+
+.content3{
+    margin-left: 165px;
+    margin-right:165px;
+    margin-top: 64px;
+}
+
+.content3 h4{
+   color: black;
+   margin-bottom: 24px;
+   margin-left: 0;
+   
+}
+
+.content3 p{
+margin-top: 12px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 30px;
+    
+}
+
+.sectinon3{
+    width: 1440px;
+    height: 657px;
+    
+    
+    }
+
+.conten4{
+    margin-left: 165px;
+    margin-right: 165px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+
+
+
+
+a{
+    text-decoration: none;
+}
+
+.content4 p{
+    margin-top: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+        
+    }
+
+    .content4{
+        margin-left: 165px;
+        margin-right:165px;
+        margin-top: 64px;
+    }
+
+    .content4 h4{
+        color: black;
+        margin-bottom: 24px;
+        margin-left: 0;
+        
+     }
+    .form{
+        display: inline;
+    }
+
+    h3{
+        font-weight: 600;
+        font-size: 40px;
+    }
+
+h4{
+    font-size: 30px;
+    font-weight: 700px;
+}

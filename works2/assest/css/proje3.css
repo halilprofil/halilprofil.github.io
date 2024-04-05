@@ -1,0 +1,166 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 1440px;
+    height: 510px;
+}
+
+.content{
+    width: 1110px;
+    height: 35opx;
+    display: flex;
+    padding-left: 165px;
+    padding-right: 165px;
+    padding-top: 85px;
+    padding-bottom: 85px;
+}
+
+.content >div{
+    width: 354px;
+    height: 350px;
+    padding-right: 20px;
+
+}
+
+.content h5 {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+
+}
+
+ .content p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.content1 {
+
+    width: 1110px;
+    height: 350px;
+    display: flex;
+    padding-left: 165px;
+    padding-right: 165px;
+    
+
+}
+
+.content1 >div{
+    width: 494px;
+    height: 568px;
+    padding-right: 130px;
+    padding-bottom: 100px;
+    
+
+}
+
+.content2{
+    width: 1110px;
+    height: 35opx;
+    display: flex;
+    padding-left: 165px;
+    padding-right: 165px;
+    padding-top: 85px;
+    padding-bottom: 85px;
+    margin-top: 200px;
+
+}
+
+.content2 >div{
+    width: 417pxpx;
+    height: 250px;
+    padding-right: 130px;
+    margin-top: 100px;
+    
+
+}
+
+.content2 h2{
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+
+}
+
+.content2 p{
+    font-weight: 400;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.button{
+    width: 214px;
+    height: 64px;
+    background-color: #094BAC;
+    border-radius: 40px;
+    margin-top: 50px;
+    
+    
+
+}
+
+.button a{ 
+    text-decoration: none;
+    
+    color: white;
+    padding-left: 50px;
+    padding-top: 65px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+.content3{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 200px;
+
+}
+
+.content3 >div{
+    margin-right: 30px;
+}
+
+.content3 >div h4{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.content3 >div p{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+.head{
+    margin-top: 200px;
+    margin-left: 200px;
+    
+}
+.head h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+
+}
+
+.head p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+
+}
+
+
+
+
+
+

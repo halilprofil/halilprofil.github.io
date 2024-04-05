@@ -1,0 +1,203 @@
+.container{
+    width: 1440px;
+    height: 510px;
+}
+
+.content{
+    width: 1110px;
+    height: 350px;
+    display: flex;
+    padding-left: 165px;
+    padding-right: 165px;
+    padding-top: 85px;
+    padding-bottom: 85px;
+}
+
+.content >div{
+    width: 354px;
+    height: 350px;
+    padding-right: 20px;
+
+}
+
+.content h5 {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+
+}
+
+ .content p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.content2{
+    width: 1110px;
+    height: 350px;
+    display: flex;
+    padding-left: 165px;
+    padding-right: 165px;
+    margin-top: 30px;
+    padding-bottom: 85px;
+}
+
+
+
+.content2 >div{
+    width: 354px;
+    height: 350px;
+    padding-right: 20px;
+
+}
+
+.content2 h5 {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+
+}
+
+.content2 p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.content3{
+    margin-top: 550px;
+    margin-left: 150px;
+    display: flex;
+
+    
+   
+}
+
+.content3 >div{
+    
+    padding-right: 20px;
+
+}
+
+.content-item{
+    display: flex;
+    
+}
+
+.content-item img,p{
+    margin-right: 50px;
+    
+
+    
+}
+
+.content3 h3{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+
+}
+
+.content3 p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+
+}
+
+.content4{
+    margin-top: 20px;
+    margin-left: 150px;
+    display: flex;
+
+    
+   
+}
+
+.content4 >div{
+    
+    padding-right: 20px;
+
+}
+
+.content-item{
+    display: flex;
+    
+}
+
+.content-item img,p{
+    margin-right: 50px;
+    
+    
+
+    
+}
+
+.content4 h3{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+
+}
+
+.content4 p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+
+}
+
+.content5{
+    background-color:#0D6EFD;
+    width: 1110px;
+    height: 354px;
+    display: flex;
+    margin-left: 200px;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+
+}
+
+.thin{
+    display: inline-block;
+    margin-top: 150px;
+    margin-left: 225px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+td {
+    padding-left: 120px;
+    padding-top: 50px;
+    
+
+}
+
+td a{
+ 
+    text-decoration: none;
+    color: black;
+
+}
+
+
+th {
+    padding-left: 120px;
+
+}
+
+.content6{
+    margin-left: 200px;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+    
