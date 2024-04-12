@@ -1,0 +1,350 @@
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  /*
+    2. Remove default margin
+  */
+  * {
+    margin: 0;
+  }
+  /*
+    Typographic tweaks!
+    3. Add accessible line-height
+    4. Improve text rendering
+  */
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  /*
+    5. Improve media defaults
+  */
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  /*
+    6. Remove built-in form typography styles
+  */
+  input, button, textarea, select {
+    font: inherit;
+  }
+  /*
+    7. Avoid text overflows
+  */
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  /*
+    8. Create a root stacking context
+  */
+  #root, #__next {
+    isolation: isolate;
+  }
+
+  body{
+    font-family: "Montserrat", sans-serif;
+    
+    
+
+  }
+
+  .container{
+    width: 1440px;
+    background-color:  #FFC9BA;
+    
+  }
+
+  .header{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 27px;
+    padding-left: 55px;
+    
+    
+    
+    
+  }
+
+  .icons ul{
+    display: flex;
+    gap: 32px;
+    list-style: none;
+  }
+
+  .hero{
+    display: flex;
+    margin-top: 200px;
+    justify-content: space-between;
+    padding-right: 151px;
+    padding-left: 165px;
+    padding-bottom: 135px;
+    
+    
+  }
+
+  .hero h2{
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 600;
+
+  }
+
+  .hero p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 20px;
+    
+
+  }
+
+  .hero a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    margin-top: 20px;
+  }
+
+  .hero >div{
+    padding-bottom: 155px;
+  }
+
+ .hero1{
+    background-color: white;
+    
+
+ }
+ .hero1 ul{
+  display: flex;
+  list-style: none;
+  gap: 100px;
+  padding-left: 150px;
+  padding-top: 50px;
+  
+  
+ }
+  
+ .yazi{
+    padding-top: 40px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    padding-left: 150px;
+ }
+
+ .hero2{
+    display: flex;
+    padding-top: 64px;
+    gap: 24px;
+    padding-left: 165px;
+    padding-right: 165px;
+    background-color:white;
+    padding-bottom: 80px;
+ }
+
+.hero3{
+    padding-left: 165px;
+    padding-right: 165px;
+    display: flex;
+    padding-top: 71px;
+    gap: 80px;
+    padding-bottom: 48px;
+    background-color: white;
+
+    
+}
+
+
+.chairs{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
+    margin-top: 10px;
+    color: #807E7E;
+
+}
+.classic{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 10px;
+
+}
+
+.dolor{
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 600;
+    color:  #212121;
+    margin-top: 10px;
+    
+}
+
+.baslik{
+    padding-left: 165px;
+    background-color: white;
+    display: flex;
+    
+}
+
+.hero4{
+    display: flex;
+    background-color: #FAFAFB;
+}
+
+.right{
+    
+    background-color:#D8D8D800;
+}
+
+.left{
+    padding-top: 128px;
+    padding-left: 165px;
+    padding-bottom: 211px;
+    width: 500px;
+}
+
+
+.hero4 h3{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    
+    
+
+}
+
+.hero4 p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 72px;
+    margin-top: 15px;
+
+}
+
+.hero4 a {
+    font-size: 18px;
+    font-weight: 700px;
+    line-height: 32px;
+    color: black;
+    text-decoration: none;
+    
+
+}
+
+.right{
+    width: 662px;
+    margin-left: 125px;
+
+}
+
+.head{
+    background-color: white;
+    padding-left: 165px;
+    padding-top: 30px;
+}
+
+.hero5{
+    display: flex;
+    padding-left: 165px;
+    gap: 20px;
+    padding-bottom: 20px;
+    padding-top: 41px;
+    background-color: white;
+    
+}
+
+.hero6{
+    display: flex;
+    padding-left: 165px;
+    gap: 20px;
+    padding-bottom: 20px;
+    
+    background-color: white;
+    
+}
+
+.head2{
+    display: flex;
+    justify-content: space-between;
+    background-color:white;
+    padding-left: 165px;
+    padding-top: 40px;
+}
+
+.head2 a{
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: center;
+    color: black;
+    padding-right: 165px;
+    gap: 5px;
+}
+
+.classic2{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+
+}
+
+.footer{
+    display: flex;
+    background-color: white;
+    
+}
+
+.footerstil{
+    font-size: 14px;
+    font-weight: 400px;
+    line-height: 24px;
+    margin-top: 30px;
+}
+
+.text{
+    width: 496px;
+}
+
+.link{
+    margin-left: 125px;
+    padding-right: 165px;
+}
+
+.footer{
+    padding-left: 165px;
+    padding-top: 72px;
+    padding-bottom: 103px;
+}
+
+th{
+    padding-left: 20px;
+}
+
+td{
+    padding-left: 20px;
+    
+}
+
+td a{
+    text-decoration: none;
+    color: black;
+}
+
+.footericons{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.footericons ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    padding-left: 165px;
+}
