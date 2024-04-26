@@ -1,0 +1,452 @@
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  /*
+    2. Remove default margin
+  */
+  * {
+    margin: 0;
+  }
+  /*
+    Typographic tweaks!
+    3. Add accessible line-height
+    4. Improve text rendering
+  */
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  /*
+    5. Improve media defaults
+  */
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  /*
+    6. Remove built-in form typography styles
+  */
+  input, button, textarea, select {
+    font: inherit;
+  }
+  /*
+    7. Avoid text overflows
+  */
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  /*
+    8. Create a root stacking context
+  */
+  #root, #__next {
+    isolation: isolate;
+  }
+
+  h1{
+    font-family: "Barlow", sans-serif;
+    font-size: 72px;
+    line-height: 72px;
+    font-weight: 900;
+    color: #FEFCF7;
+
+
+  }
+
+  p{
+    color: #FEFCF7;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: "Barlow", sans-serif;
+    
+  }
+
+  h4{
+    font-family: "Barlow", sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 900;
+
+
+  }
+
+  h2{
+
+    font-family: "Barlow", sans-serif;
+    line-height: 48px;
+    font-size: 40px;
+    font-weight: 900;
+
+
+  }
+
+  h3{
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    font-family: "Barlow", sans-serif;
+    
+
+  }
+
+  .container{
+    width: 1280px;
+    display: flex;
+    flex-direction: column;
+    margin-inline: auto;
+    font-family: "Barlow", sans-serif;
+
+  }
+
+.header{
+    margin-top: 44px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header ul{
+    display: flex;
+    list-style: none;
+    gap: 33px;
+
+}
+.header a {
+    text-decoration: none;
+    color: #83888F;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+
+}
+
+.header a:hover{
+  color: #333D4B;
+
+}
+
+.header-content{
+  background-image: url("../img/coffee1.png");
+  background-repeat: no-repeat;
+  height: 1298px;
+  margin-top: 44px;
+
+}
+
+.header-content div{
+  width: 493px;
+  margin-left: 85px;
+  margin-top: 117px;
+
+}
+
+.header-content p{
+  margin-top: 32px;
+  margin-bottom: 56px;
+
+
+}
+
+.header-content a{
+  color: #FEFCF7;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 900;
+  text-align: center;
+  text-decoration: none;
+  background-color: #0E8784;
+  padding-left: 31px;
+  padding-right: 31px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 10px;
+}
+
+.header-content a:hover{
+  background-color: #66D2CF;
+}
+
+
+.section{
+  margin-left: 85px;
+  width: 1111px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  margin-top: -570px;
+  background-image: url("../img/background1.png");
+  background-repeat: no-repeat;
+  gap: 30px;
+}
+
+.section div{
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.section p{
+  margin-top: 24px;
+  color: #333D4B;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+
+
+}
+
+.section h4{
+  margin-top: 74px;
+  color: #333D4B;
+  text-align: center;
+}
+
+.hero{
+
+  margin-top: 200px;
+  background-color:#333D4B;
+  
+  position: relative;
+  width: 1280px;
+  height: 550px;
+
+  margin-inline: auto;
+
+  
+
+}
+
+.hero-text{
+
+  
+  margin-top: 125px;
+  margin-inline: auto;
+  width: 540px;
+  /* margin-top: 125px;
+  
+  margin-left: 270px; */
+
+}
+
+.hero-text h2{
+  color: #FEFCF7;
+  margin-bottom: 20px;
+  
+  text-align: center;
+}
+
+.hero-text p{
+  text-align: center;
+  font-weight: 400;
+}
+
+
+
+.hero-cards{
+  
+  position:absolute;
+  margin-inline: auto;
+ 
+  left: 90px;
+  gap: 30px;
+  width: 1100px;
+  bottom: -150px;
+  display: flex;
+
+  
+  
+
+
+}
+
+.hero-cards div{
+  
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #0E8784;
+
+  padding-bottom: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 45px;
+  width: 350px;
+
+}
+
+.hero-cards img{
+  width: 72px;
+  height: 72px;
+}
+
+.hero-cards h4{
+  margin-top: 56px;
+  text-align: center;
+  color: #FEFCF7;
+  font-weight: 900;
+  margin-bottom: 24px;
+
+
+  
+}
+
+.hero-cards p{
+  text-align: center;
+  font-weight: 400;
+  
+
+  
+}
+
+.footer-content{
+  margin-top: 350px;
+}
+
+.footer-content h4{
+  font-weight: 900;
+  line-height: 32px;
+  color:#83888F ;
+  margin-bottom: 80px;
+
+}
+
+.footer-content a{
+  font-weight: 900;
+  text-decoration: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 25px;
+  background-color:#0E8784 ;
+  color: #FEFCF7;
+  padding-left: 31px;
+  padding-right: 31px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-radius: 10px;
+
+  
+
+}
+
+.footer-content a:hover{
+  background-color: #66D2CF;
+
+}
+
+.circle{
+  display: flex;
+  position: relative;
+  margin-bottom: 67px;
+
+}
+
+.circle div{
+  display: flex;
+  
+  gap: 333px;
+}
+
+.line{
+  position: absolute;
+  width: 760px;
+  bottom: 15px;
+
+}
+
+.footer-cards{
+  display: flex;
+  gap: 130px;
+  margin-bottom: 80px;
+
+}
+
+.footer-card{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 230px;
+  
+
+
+}
+
+.footer-card h1{
+  color: #FDD6BA;
+  
+
+}
+
+.footer-card h3{
+  color: #333D4B;
+  
+}
+
+.footer-card p{
+  color: #333D4B;
+  
+}
+
+.footer{
+  padding-left: 65px;
+  padding-right: 65px;
+  padding-top: 47px;
+  padding-bottom: 47px;
+  
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-bottom: 75px;
+  background-color:#2C343E;
+
+}
+
+.footer ul{
+  display: flex;
+  list-style: none;
+  gap: 30px;
+
+
+}
+
+.footer a{
+  color: #83888F;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+
+
+}
+
+.footer a:hover{
+  color: #FEFCF7;
+}
+
+
+
+.social-icon {
+  width: 24px; /* İkonların genişliği */
+  height: 24px; /* İkonların yüksekliği */
+  fill: white; /* İkonların varsayılan rengi */
+  transition: fill 0.3s ease; /* Rengin değişimine geçiş efekti ekler */
+}
+
+.footer ul li a:hover .social-icon {
+  fill: #FDD6BA; /* İkonların hover durumunda rengini değiştirir */
+}
+
+
+
+
+
+
+
+
+
+
+  
+
