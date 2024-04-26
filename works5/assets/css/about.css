@@ -1,0 +1,344 @@
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  /*
+    2. Remove default margin
+  */
+  * {
+    margin: 0;
+  }
+  /*
+    Typographic tweaks!
+    3. Add accessible line-height
+    4. Improve text rendering
+  */
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  /*
+    5. Improve media defaults
+  */
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  /*
+    6. Remove built-in form typography styles
+  */
+  input, button, textarea, select {
+    font: inherit;
+  }
+  /*
+    7. Avoid text overflows
+  */
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  /*
+    8. Create a root stacking context
+  */
+  #root, #__next {
+    isolation: isolate;
+  }
+
+  h1{
+    font-family: "Barlow", sans-serif;
+    font-size: 72px;
+    line-height: 72px;
+    font-weight: 900;
+    color: #FEFCF7;
+
+
+  }
+
+  p{
+    color: #FEFCF7;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: "Barlow", sans-serif;
+    
+  }
+
+  h4{
+    font-family: "Barlow", sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 900;
+
+
+  }
+
+  h2{
+
+    font-family: "Barlow", sans-serif;
+    line-height: 48px;
+    font-size: 40px;
+    font-weight: 900;
+
+
+  }
+
+  h3{
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    font-family: "Barlow", sans-serif;
+    
+
+  }
+
+  .container{
+    width: 1280px;
+    display: flex;
+    flex-direction: column;
+    margin-inline: auto;
+    font-family: "Barlow", sans-serif;
+
+  }
+
+.header{
+    margin-top: 44px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header ul{
+    display: flex;
+    list-style: none;
+    gap: 33px;
+
+}
+.header a {
+    text-decoration: none;
+    color: #83888F;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+
+}
+
+.header a:hover{
+  color: #333D4B;
+
+}
+
+.header-content{
+    margin-top: 44px;
+    background-image: url("../img/about.png");
+    background-repeat: no-repeat;
+    height: 450px;
+    border-radius: 10px;
+}
+
+.header-content div{
+    width: 475px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    color: #FEFCF7;
+    margin-left: 85px;
+    margin-top: 137px;
+
+}
+
+.header-content h2{
+    font-weight: 900;
+    line-height: 48px;
+    font-size: 40px;
+
+}
+
+.header-content p{
+   
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+}
+
+.hero{
+    margin-top: 168px;
+    display: flex;
+    gap: 125px;
+
+
+}
+
+.hero img{
+    border-radius: 10px;
+    margin-left: 90px;
+}
+
+.hero-text{
+    width: 540px;
+
+    margin-right: 85px;
+    margin-top: 90px;
+
+
+}
+
+.hero-text p{
+    margin-top: 32px;
+    font-weight: 400;
+    color: #333D4B;
+}
+
+.hero-text h2{
+    color:#333D4B;
+}
+
+.section{
+    position: relative;
+    background-color: #2C343E;
+    margin-top: 240px;
+    border-radius: 10px;
+    z-index: 1;
+
+
+
+
+}
+
+.section img{
+    position: absolute;
+    z-index: 2;
+    bottom: 120px;
+    right: 85px;
+    border-radius: 10px;
+}
+
+.section div {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 440px;
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-bottom: 176px;
+
+
+}
+
+.section h2{
+    color: #FEFCF7;
+    font-weight: 900;
+    font-family: ;
+}
+  
+.title{
+    margin-top: 150px;
+    margin-left: 115px;
+    color: #83888F;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+
+}
+
+.footer-content{
+    display: grid;
+    margin-top: 85px;
+    gap: 95px;
+    grid-template-columns: repeat(3,1fr);
+    margin-inline: auto;
+
+
+}
+
+.adress{
+    margin-top: 30px;
+}
+
+.footer-content h2{
+    color: #333D4B;
+    font-weight: 900;
+    line-height: 36px;
+    
+    
+
+}
+
+.footer-content div{
+    
+    display: flex;
+    flex-direction: column;
+    width: 285px;
+    
+
+}
+
+.footer-content img{
+    margin-bottom: 30px;
+    width: 35px;
+    height: 50px;
+    
+}
+
+.footer-content span{
+    font-size: 16px;
+    font-family: "Barlow", sans-serif;
+    color: #333D4B;
+    font-weight: 400;
+    line-height: 26px;
+    display: block;
+    
+}
+
+
+.footer{
+  padding-left: 65px;
+  padding-right: 65px;
+  padding-top: 47px;
+  padding-bottom: 47px;
+  
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-bottom: 75px;
+  background-color:#2C343E;
+
+}
+
+.footer ul{
+  display: flex;
+  list-style: none;
+  gap: 30px;
+
+
+}
+
+.footer a{
+  color: #83888F;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+
+
+}
+
+.footer a:hover{
+  color: #FEFCF7;
+}
+
+
+
+.social-icon {
+  width: 24px; /* İkonların genişliği */
+  height: 24px; /* İkonların yüksekliği */
+  fill: white; /* İkonların varsayılan rengi */
+  transition: fill 0.3s ease; /* Rengin değişimine geçiş efekti ekler */
+}
+
+.footer ul li a:hover .social-icon {
+  fill: #FDD6BA; /* İkonların hover durumunda rengini değiştirir */
+}
+
+
