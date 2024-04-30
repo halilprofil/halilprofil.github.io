@@ -1,0 +1,409 @@
+:root {
+  --purple-color: #755CDE;
+  --orange-color: #F6A560;
+  --pink-color: #F39E9E;
+  --peachy-color: #EB7565;
+  --green-color: #61C4B7;
+  --dark-purple-color: #552049;
+  --black-color: #030303;
+  --grey-color: #7A746E;
+  --white-color: #FFF7F0;
+
+}
+
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/*
+  2. Remove default margin
+*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*
+  Typographic tweaks!
+  3. Add accessible line-height
+  4. Improve text rendering
+*/
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/*
+  5. Improve media defaults
+*/
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/*
+  6. Remove built-in form typography styles
+*/
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/*
+  7. Avoid text overflows
+*/
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/*
+  8. Create a root stacking context
+*/
+
+h1,
+h2,
+h3 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 700;
+}
+
+p {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.header-content p {
+  color: #7A746E;
+}
+
+.img-container-content p {
+  color: #7A746E;
+}
+
+h1 {
+  font-size: 56px;
+  line-height: 70.56px;
+}
+
+h2 {
+  font-size: 40px;
+  line-height: 50.4px;
+}
+
+h3 {
+  font-size: 32px;
+  line-height: 40.32px;
+}
+
+.btn-first {
+  background-color: var(--black-color);
+  color: var(--white-color);
+  padding: 14px 45px;
+  border-radius: 45px;
+}
+
+.btn-first a {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: var(--white-color);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+  text-decoration: none;
+}
+
+.btn-first:hover {
+  background-color: var(--purple-color);
+}
+
+.btn-second {
+  background-color: var(--peachy-color);
+  color: var(--white-color);
+  padding: 14px 45px;
+  border-radius: 45px;
+  width: 228px;
+}
+
+.btn-second a {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: var(--white-color);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+  text-decoration: none;
+}
+
+.btn-second:hover {
+  background-color: var(--orange-color);
+}
+
+.container {
+  padding: 40px;
+  width: 1110px;
+  margin-inline: auto;
+  margin-top: 34px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 66px;
+}
+
+.header-content {
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 23px;
+  max-width: 768px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.header-content p {
+  text-align: center;
+  padding-inline: 20px;
+}
+
+.grid-container {
+  margin-inline: auto;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 24px;
+}
+
+.bg-purple {
+  background-color: var(--purple-color);
+}
+
+.bg-orange {
+  background-color: var(--orange-color)
+}
+
+.bg-peachy {
+  background-color: var(--peachy-color);
+}
+
+.bg-pink {
+  background-color: var(--pink-color);
+}
+
+.bg-green {
+  background-color: var(--green-color);
+}
+
+.bg-darkpurple {
+  background-color: var(--dark-purple-color);
+}
+
+
+.item {
+  border-radius: 16px;
+  padding: 24px;
+  display: grid;
+  grid-column: span 2;
+}
+
+.mini-item {
+  border-radius: 16px;
+  padding: 24px;
+  display: grid;
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
+.grid-container img {
+  max-height: 75%;
+  display: block;
+  justify-self: flex-end;
+}
+
+.grid-container p {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30.24px;
+  color: #FFFFFF;
+}
+
+.grid-container :nth-child(1) {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.img-container {
+  margin-top: 136px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 125px;
+}
+
+.img-container img {
+  max-width: 445px;
+}
+
+.img-container-content {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 540px;
+}
+
+.footer-content {
+  margin-top: 88px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: var(--black-color);
+  border-radius: 10px;
+  max-width: 1110px;
+  padding: 80px 65px;
+  align-items: center;
+  margin-bottom: 56px;
+}
+
+.footer-text {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  color: #FFF7F0;
+  gap: 25px;
+  max-width: 540px;
+}
+
+
+@media(width <=768px) {
+  body {
+    width: 860px;
+  }
+
+  .container {
+    max-width: 768px;
+    padding: 40px;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .img-container img {
+    width: 330px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 26px;
+  }
+
+  .footer-text {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 44px;
+    line-height: 55px;
+  }
+
+  h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+}
+
+@media(width <=375px) {
+  body {
+    width: 380px;
+  }
+
+  .container {
+    width: 375px;
+    padding: 20px;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .img-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .img-container-content {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 26px;
+  }
+
+  .footer-text {
+    text-align: center;
+  }
+
+  .img-container img {
+    width: 350px;
+  }
+
+  .header {
+    gap: 20px;
+  }
+
+  h1 {
+    font-size: 36px;
+    line-height: 45.36px;
+  }
+
+  h2 {
+    font-size: 26px;
+    line-height: 32px;
+  }
+
+  p {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
