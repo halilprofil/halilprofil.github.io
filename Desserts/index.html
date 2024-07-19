@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/desserts.css">
+    <script src="./assets/js/desserts.js" defer></script>
+</head>
+<body>
+   
+    <div class="container">
+        
+
+    <div>
+        <h1>Desserts</h1>
+        <div id="cardsContainer">
+
+            <div class="card-item">
+                <div class="card-img">
+                    <img src="./assets/img/Item Image.png" alt="pankek foto">
+                    <button type="button"><img src="./assets/img/carbon_shopping-cart-plus.svg" alt="alışveriş sepeti"> Add to Cart</button>
+                </div>
+
+                <div class="card-content">
+                <h5>Waffle</h5>
+                <p>Waffle with Berries</p>
+                <span>$6.50</span>
+                </div>
+            </div>
+    </div>
+
+
+        </div>
+        
+        <div class="cart-container">
+            <h2 id="cartCount">YOUR CART()</h2>
+        
+            <div id="cart">
+        
+                <!-- <div class="cart-item">
+                    <p class="desserts-category">Classic Tiramisu</p>
+                    <div class="cart-content">
+                        <p class="price">1x</p>
+                        <p class="price-1">@ $5.50</p>
+                        <p class="price-3">$5.50</p>
+                        <div class="delete-btn"><a href="#"><img src="./assets/img/Button - Remove Item.svg"></a></div>
+                    </div>
+                </div> -->
+
+                
+                <img src="assets/img/Empty Placeholder.png">
+        
+            </div>
+         <div class="cart-bottom" style="display: none;">
+            <div class="total-div"><p>Order Total</p><p id="totalOrder"></p></div>
+            <div class="carbon-div"><img src="./assets/img/carbon_tree.svg"><p>This is a  carbon-neutral  delivery</p></div>
+            <a href="#" class="confirm">Confirm Order</a>
+         </div>
+
+         <dialog id="modal">
+            <div class="modal-head">
+                <img src="./assets/img/carbon_checkmark-outline.svg">
+                <h2>Order Confirmed</h2>
+                <span>We hope you enjoy your food!</span>
+            </div>
+            <div id="modalİtem"></div>
+            <div class="total-div"><p>Order Total</p><p class="modal-total">$46.50</p></div>
+            <a href="#" class="confirm" id="newOrderBtn">Start New Order</a>
+          </dialog>
+        
+        </div>
+    </div>
+    
+</body>
+</html>
