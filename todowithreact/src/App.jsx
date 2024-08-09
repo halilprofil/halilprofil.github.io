@@ -2,7 +2,7 @@ import { useRef, useState } from 'react'
 import './App.css'
 
 function App() {
-  const todoInput = useRef();
+  const todoInput = useRef() ;   
   // useRef fonksiyonunu bir elemente referans baglamak icin kullaniyosun
   //useState'ten daha az perf harciyo, her render isleminde baglanan element varsa ona ulasiyo, yoksa null deger donuyo
   const [todos, setTodos] = useState([
