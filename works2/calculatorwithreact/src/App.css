@@ -1,0 +1,278 @@
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+/*
+  2. Remove default margin
+*/
+* {
+  margin: 0;
+}
+/*
+  Typographic tweaks!
+  3. Add accessible line-height
+  4. Improve text rendering
+*/
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+/*
+  5. Improve media defaults
+*/
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+/*
+  6. Remove built-in form typography styles
+*/
+input, button, textarea, select {
+  font: inherit;
+}
+/*
+  7. Avoid text overflows
+*/
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+/*
+  8. Create a root stacking context
+*/
+#root, #__next {
+  isolation: isolate;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 36.8px;
+  letter-spacing: -0.6666666865348816px;
+  text-align: center;
+
+
+}
+
+
+.container{
+  background-color: #3A4663;
+}
+
+.calc{
+  margin-inline: auto;
+  width: 540px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header{
+  padding-bottom: 32px;
+  padding-top: 90px;
+  display: flex;
+  justify-content: space-between;
+}
+.header div{
+  display: flex;
+  align-items: end;
+  gap: 30px;
+}
+
+.header-bottom{
+  width: 540px;
+  background-color: #181F33;
+  display: flex;
+  justify-content: end;
+  border-radius: 16px;
+}
+
+.header-bottom p{
+  display: inline-block;
+  color: white;    
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 51.52px;
+  letter-spacing: -0.9333333373069763px;
+  text-align: right;
+  padding: 36px;
+
+  
+}
+
+.number{
+  background-color: #181F33;
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  border-radius: 16px;
+  margin-bottom: 96px;
+}
+
+.number-line{
+  display: flex;
+  
+  justify-content: space-around;
+}
+
+.btn{
+  display: inline-block;
+  background-color: #EAE3DC;
+  color: #434A59;
+  padding: 13px 0px;
+  border-radius: 16px;
+  width: 101px;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 25.76px;
+  letter-spacing: -0.46666666865348816px;
+  text-align: center;
+  border-bottom: solid 5px transparent;
+
+
+}
+
+.btn:hover{
+  background-color: white;
+}
+
+.double{
+  width: 227px;
+}
+
+.light-blue{
+  background-color: #647198;
+  color: white;
+}
+
+.red{
+  background-color: #D03F2F;
+  color: white;
+}
+
+span{
+  color: white;
+}
+
+.light-blue:hover{
+  background-color: #A2B2E1;
+}
+
+.red:hover{
+  background-color:#F96B5B ;
+}
+
+.light{
+  background-color: #E6E6E6;
+}
+
+.white{
+  background-color: white;
+}
+
+.black{
+  color: #36362C !important;
+}
+
+.grey{
+  background-color: #D2CDCD;
+}
+
+.green{
+  background-color: #378187;
+}
+
+.green:hover{
+  background-color: #62B5BC;
+}
+
+.orange{
+  background-color: #C85402;
+}
+
+.orange:hover{
+  background-color: #FF8A38;
+}
+
+.white-color{
+  color: white;
+}
+
+.dark{
+  background-color: #17062A;
+}
+
+.yellow{
+  color: #FFE53D !important;
+}
+
+.dark-purple{
+  background-color: #331C4D;
+}
+
+.dark-purple:hover{
+  background-color: #6C34AC;
+}
+
+.purple{
+  background-color: #56077C;
+}
+
+.purple:hover{
+  background-color: #8631AF;
+}
+
+.black-blue{
+  background-color: #1E0936;
+}
+
+.light-green{
+  background-color: #00DED0;
+}
+
+.light-green:hover{
+  background-color: #93FFF8;
+}
+
+
+
+@media(width < 376px){
+
+  .header{
+      padding-top: 30px;
+  }
+
+  .calc{
+      width: 327px;
+  }
+
+  .header-bottom{
+      width: 327px;
+  }
+
+  .btn{
+      width: 60px;
+      border-radius: 6px;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 18.4px;
+      letter-spacing: -0.3333333432674408px;
+      text-align: center;
+  }
+
+  .double{
+      width: 133px;
+      font-family: League Spartan;
+
+
+  }
+
+  .number{
+      margin-bottom: 30px;
+  }
+}
